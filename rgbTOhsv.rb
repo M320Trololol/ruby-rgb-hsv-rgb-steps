@@ -44,7 +44,7 @@ if (v == 0)
     puts("V == 0, therefore S = 0");
 else
     s = delta/v
-    puts("V != 0, therfore S = Delta/V = #{s}");
+    puts("V != 0, therefore S = Delta/V = #{s}");
 end
 
 if (s == 0)
@@ -53,13 +53,13 @@ if (s == 0)
 else
     if (r == v)
         h = 60 * ((g - b)/delta);
-        puts("R == V, therfore H = 60 * (G - B)/Delta = #{h}")
+        puts("R == V, therefore H = 60 * (G - B)/Delta = #{h}")
     elsif (g == v)
         h = 120 + 60 * ((b - r)/delta)
-        puts("G == V, therfore H = 120 + 60 * (B - R)/Delta = #{h}")
+        puts("G == V, therefore H = 120 + 60 * (B - R)/Delta = #{h}")
     else
         h = 240 + 60 * ((r - g)/delta)    
-        puts("G == V, therfore H = 2400 + 60 * (R - G)/Delta = #{h}")
+        puts("G == V, therefore H = 2400 + 60 * (R - G)/Delta = #{h}")
     end
 end
 

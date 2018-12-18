@@ -46,32 +46,32 @@ else
         r = v;
         g = t;
         b = p1;
-        puts("I == 0, therfore R = V = #{r}, G = T = #{g} and B = P = #{b}");       
+        puts("I == 0, therefore R = V = #{r}, G = T = #{g} and B = P = #{b}");       
     elsif (i == 1)
         r = q;
         g = v;
         b = p1;
-        puts("I == 1, therfore R = Q = #{r}, G = V = #{g} and B = P = #{b}");       
+        puts("I == 1, therefore R = Q = #{r}, G = V = #{g} and B = P = #{b}");       
     elsif (i == 2)
         r = p1;
         g = v;
         b = t;
-        puts("I == 2, therfore R = P = #{r}, G = V = #{g} and B = T = #{b}");       
+        puts("I == 2, therefore R = P = #{r}, G = V = #{g} and B = T = #{b}");       
     elsif (i == 3)
         r = p1;
         g = q;
         b = v;
-        puts("I == 3, therfore R = P = #{r}, G = Q = #{g} and B = V = #{b}");       
+        puts("I == 3, therefore R = P = #{r}, G = Q = #{g} and B = V = #{b}");       
     elsif (i == 4)
         r = t;
         g = p1;
         b = v;
-        puts("I == 4, therfore R = T = #{r}, G = P = #{g} and B = V = #{b}");       
+        puts("I == 4, therefore R = T = #{r}, G = P = #{g} and B = V = #{b}");       
     elsif (i == 5)
         r = v;
         g = p1;
         b = q;
-        puts("I == 5, therfore R = V = #{r}, G = P = #{g} and B = Q = #{b}");       
+        puts("I == 5, therefore R = V = #{r}, G = P = #{g} and B = Q = #{b}");       
     else
         abort("Error!");
     end
